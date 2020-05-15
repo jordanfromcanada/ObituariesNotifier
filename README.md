@@ -17,3 +17,12 @@ which writes to the topic at the interval specified. The Cloud Function is subsc
 ```gcloud scheduler jobs create pubsub obituaries-pubsub --schedule "0 11 * * *" --topic topic-trigger-for-obituaries --message-body "This runs at 11am daily"```
 
 [Read more in the Google Cloud Python Quickstart to deploy an app from scratch.](https://cloud.google.com/appengine/docs/standard/python3/quickstart)
+
+# Result
+Sheet1 showing how matched names are logged
+![Screen Shot 2020-05-14 at 10 42 00 PM](https://user-images.githubusercontent.com/65370643/82012193-6f6b7300-9634-11ea-8a05-e0edbc241401.png)
+
+Sheet2 showing the list of user-defined names to search.
+`* NAME` format searches all last name matches,
+`FIRST LAST` format searches full exact name match
+![Screen Shot 2020-05-14 at 10 42 58 PM](https://user-images.githubusercontent.com/65370643/82012192-6ed2dc80-9634-11ea-88dd-53ffd9b6295c.png)
