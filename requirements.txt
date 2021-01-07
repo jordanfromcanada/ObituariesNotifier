@@ -2,7 +2,7 @@
 requests==2.22.0
 beautifulsoup4==4.7.1
 html5lib==1.0.1
-lxml==4.3.4
+lxml==4.6.2
 # Sending texts
 twilio==6.35.2
 # Spreadsheet logging
